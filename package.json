@@ -1,0 +1,24 @@
+{
+  "name": "derby-cache",
+  "version": "0.1.0",
+  "description": "Derby server side module to cache app pages requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://mattbrun@github.com/mattbrun/derby-cache.git"
+  },
+  "keywords": [
+    "derby",
+    "server",
+    "cache"
+  ],
+  "author": "Matteo Brunati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattbrun/derby-cache/issues"
+  },
+  "homepage": "https://github.com/mattbrun/derby-cache"
+}
