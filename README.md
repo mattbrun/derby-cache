@@ -19,7 +19,8 @@ patched so that when a page is rendered the output is emitted.
 
 You may use my `derby`
 [patched repo](https://github.com/mattbrun/derby/tree/renderEmit),
-or wait for this patch to be accepted in mainstream `derby`. 
+or wait for this patch to be accepted in mainstream `derby` - `derby` issue
+[#504](https://github.com/derbyjs/derby/pull/504).
 
 
 // #############################################################################
