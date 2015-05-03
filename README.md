@@ -1,4 +1,3 @@
-// #############################################################################
 # derby-cache
 Derby server side module to cache app pages requests.
 
@@ -11,7 +10,6 @@ There are some improvements I'd like to do.
 See `Whishlist` chapter at the bottom.
 
 
-// #############################################################################
 ## Prerequisites
 
 At the time of writing, in order for this module to work, Derby need to be
@@ -23,7 +21,6 @@ or wait for this patch to be accepted in mainstream `derby` - `derby` issue
 [#504](https://github.com/derbyjs/derby/pull/504).
 
 
-// #############################################################################
 ## Installation
 
 ```bash
@@ -31,7 +28,6 @@ $ npm install --save derby-cache
 ```
 
 
-// #############################################################################
 ## Usage
 
 In the index.js of your derby app require the `derby-cache` module with
@@ -45,7 +41,6 @@ app.use(require('derby-cache'));
 ```
 
 
-// #############################################################################
 ## Whishlist
 
 - Render the cached pages with `setInterval`
@@ -63,7 +58,6 @@ thresholds
   such as those pages which manges queries filters through url query parameters
 
 
-// #############################################################################
 ## License
 
 The MIT License (MIT)
