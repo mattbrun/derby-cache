@@ -1,5 +1,5 @@
-var Cacher = require('./lib/Cacher');
+var Cache = require('./lib/Cache');
 
 module.exports = function(app, options){
-  new Cacher(app, options);
+  new Cache(app, options);
 };
