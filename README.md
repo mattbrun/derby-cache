@@ -35,7 +35,7 @@ In the index.js of your derby app require the `derby-cache` module with
 ```js
 var app = module.exports = derby.createApp('app', __filename);
 // ...
-app.use(require('derby-cache'));
+app.serverUse(module, 'derby-cache');
 // ...
 
 ```
