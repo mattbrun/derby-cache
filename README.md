@@ -33,7 +33,7 @@ $ npm install --save derby-cache
 In the index.js of your derby app require the `derby-cache` module with
 `app.use`:
 ```js
-var app = module.exports = derby.createApp('picua', __filename);
+var app = module.exports = derby.createApp('app', __filename);
 // ...
 app.use(require('derby-cache'));
 // ...
