@@ -4,8 +4,8 @@ Derby server side module to cache app pages requests.
 This module is very basic at the moment.
 Suggestions and improvements are welcome.
 
-*It may cause drastic memory usage increase since there is no cache limit at the
-moment.*
+**It may cause drastic memory usage increase since there is no cache limit at the
+moment.**
 
 There are some improvements I'd like to do.
 See `Whishlist` chapter at the bottom.
