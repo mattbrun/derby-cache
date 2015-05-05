@@ -57,8 +57,7 @@ page change, but not too often using a minimun timeout between each render
   [`Page.server.js`](https://github.com/derbyjs/derby/blob/master/lib/Page.server.js#L5),
   which actually handles both the page rendering and the client response of the
   rendered page.
-- Cache only the top hitted pages, with and option which determines the
-thresholds
+- Cache only the top hitted pages
 - Consider the possibility to cache by complete url: url + query
   - This qould allow us to cache specific rendered pages, if frequently visited,
   such as those pages which manges queries filters through url query parameters
