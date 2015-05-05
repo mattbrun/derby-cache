@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/mattbrun/derby-cache/issues"
   },
-  "homepage": "https://github.com/mattbrun/derby-cache"
+  "homepage": "https://github.com/mattbrun/derby-cache",
+  "dependencies": {
+    "lodash": "^3.8.0"
+  }
 }

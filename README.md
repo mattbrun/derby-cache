@@ -36,10 +36,15 @@ In the index.js of your derby app require the `derby-cache` module with
 ```js
 var app = module.exports = derby.createApp('app', __filename);
 // ...
-app.serverUse(module, 'derby-cache');
+app.serverUse(module, 'derby-cache', {
+  maxPagesToCache: 5
+});
 // ...
-
 ```
+
+The module options with their default values are:
+- **maxPagesToCache: 10** - Set the maximum number of pages to
+cache. If set to 0 there will be no cache limit.
 
 
 ## Whishlist
